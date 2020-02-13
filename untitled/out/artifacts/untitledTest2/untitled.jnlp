@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="untitled.jnlp">
+  <information>
+    <title>untitledTest2</title>
+    <vendor>Unknown</vendor>
+    <description>untitledTest2</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Farmnet.jar" size="24129" download="eager" />
+    <jar href="META-INF\untitled.jar" size="18045384" download="eager" />
+    <jar href="sqlite-jdbc.jar" size="6012107" download="eager" />
+    <jar href="untitled.jar" size="23220" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.company.Main"  name="untitledTest2" />
+  <update check="background"/>
+</jnlp>

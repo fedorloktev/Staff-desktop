@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="generalwindow" blendMode="MULTIPLY" cache="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="534.0" style="-fx-background-color: #E0FFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.StuffList">
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+   <children>
+      <Button fx:id="add" layoutX="26.0" layoutY="231.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="134.0" text="Добавить" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="26.0" />
+      <Button fx:id="del" layoutX="200.0" layoutY="231.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="134.0" text="Удалить" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" />
+      <Button fx:id="edit" layoutX="372.0" layoutY="231.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="134.0" text="Редактировать" AnchorPane.bottomAnchor="24.0" AnchorPane.rightAnchor="28.0" />
+      <ListView fx:id="list" disable="true" layoutX="26.0" layoutY="14.0" opacity="0.0" prefHeight="203.0" prefWidth="478.0" />
+   </children>
+</AnchorPane>
